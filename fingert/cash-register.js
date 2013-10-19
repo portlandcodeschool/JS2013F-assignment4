@@ -2,20 +2,23 @@
 //wondering if I'm at all on the right track with the architecture.
 
 
-
+var num = 0;
 
 var cashRegister = {
-  add: function (num) {
-  	console.log(num);
-  },
+  
 
-  subtract: function (num) {
-  	
-  	console.log(num - num);
-  },
-  total: function () {
-  	console.log(cashRegister.add - cashRegister.subtract);
+  var add = {
+  	console.log(this.num + num);
   }
+
+  var subtract =  {
+  	
+  	console.log(this.num - num);
+  }
+ 
+   var total = {
+   	 console.log(this.num);
+  } 
 }
   
 
