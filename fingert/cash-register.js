@@ -1,23 +1,22 @@
-//David - I can't figure out the math to apply, but I am just 
-//wondering if I'm at all on the right track with the architecture.
 
+var cost = 0;
 
-var num = 0;
 
 var cashRegister = {
   
+  
 
-  var add = {
-  	console.log(this.num + num);
-  }
+  add: function (num) {
+  	cost + num;
+  },
 
-  var subtract =  {
+  subtract: function (num)  {
+  	cost - num;
   	
-  	console.log(this.num - num);
-  }
+  },
  
-   var total = {
-   	 console.log(this.num);
+   total: function () {
+   	 return this.add() - this.subtract();
   } 
 }
   
