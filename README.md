@@ -16,4 +16,9 @@ Copy cash-register.js into your working directory and implement the object. You'
 
 ## Intermediate assignment
 
-Coming soon...
+Copy shopping-cart.js into your working directory. This time you're going to create a shopping cart such as would be used in an online store. These are its requirements:
+
+1. It must have an add function that accepts an object containing description, price and item count keys, and returns a uniquely assigned item id.
+2. It must have a remove function that accepts a unique item id, and a number that represents how many to remove. The function should change the item count or delete the item altogether as appropriate.
+3. It must have a list function that returns an array of desciptions, prefixed by "n X ", where n is the number currently in the cart.
+4. It must have a total function that returns the current total cost of the purchase
