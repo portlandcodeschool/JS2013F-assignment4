@@ -13,7 +13,9 @@ And you're ready to work!
 ## Review assignment
 
 This one's a classic! You can look up the solution easily, but what fun would that be?
+
 >Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
 Call this file fizzbuzz.js and place it in your working directory on your branch.
 
 ## Basic assignment
