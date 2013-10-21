@@ -1,6 +1,6 @@
 var cashRegister = {
   // implement me!
-}
+};
 
 cashRegister.add(1.25);
 cashRegister.add(3.63);
