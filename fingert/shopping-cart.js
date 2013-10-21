@@ -1,21 +1,21 @@
 var shoppingCart = {
-  add: function(stuff) {	
-  this.description = stuff.description;
-  this.count = stuff.count;
-  this.price = stuff.price;
+  
+  add: function(item, index, array) {
+  var array = [];	
+  array.push(item);
+  //this.count = stuff.count;
+  //this.price = stuff.price;
 },
 
-  list: function(basket) {
-  	return this.add.count + " X " + this.add.description;
+  list: function(stuff) {
+  	return shoppingCart.array + " X " + this.array;
   },
 
-  total: function (charges) {
-  	return this.add.price;
+  total: function (stuff) {
+  	return shoppingCart.array;
   },
   remove: function (stuff) {
-    this.add.description - this.description;
-    this.add.count - this.count;
-    this.add.price - this.price;
+    shoppingCart.array;
   }
 };
 

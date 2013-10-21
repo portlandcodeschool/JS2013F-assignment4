@@ -1,25 +1,30 @@
-<<<<<<< HEAD
 
-var cost = 0;
+var total = 0;
+
+
 
 
 var cashRegister = {
   
   
 
-  add: function (num) {
-  	cost + num;
+  add: function (x) {
+    
+  	total += x;
   },
 
-  subtract: function (num)  {
-  	cost - num;
-  	
+  subtract: function (x)  {
+  	total -= x;
   },
- 
-   total: function () {
-   	 return this.add() - this.subtract();
-  } 
-=======
+
+  total: function () {
+    return total;
+  }
+  	
+  };
+
+//cashRegister.total = cashRegister.num;
+/*=======
 //David - I can't figure out the math to apply, but I am just 
 //wondering if I'm at all on the right track with the architecture.
 
@@ -39,7 +44,7 @@ var cashRegister = {
   	console.log(cashRegister.add - cashRegister.subtract);
   }
 >>>>>>> d1232e6afc1f9a12c4d76aba3f3255e092a5a1bd
-}
+}*/
   
 
 
