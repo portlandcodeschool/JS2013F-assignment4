@@ -1,24 +1,23 @@
 
-var total = 0;
+
 
 
 
 
 var cashRegister = {
-  
-  
-
+   
+  'totes': 0,
   add: function (x) {
     
-  	total += x;
+  	this.totes += x;
   },
 
   subtract: function (x)  {
-  	total -= x;
+  	this.totes -= x;
   },
 
   total: function () {
-    return total;
+    return this.totes;
   }
   	
   };

@@ -1,37 +1,52 @@
+
+
+var description = " ";
+var count = 0;
+var price = 0;
+var tally = " ";
+
+var array = [item1 = [description, count, price], 
+  item2 = [description, count, price], 
+  item3 = [description, count, price], 
+  item4 = [description, count, price]];
+
+
 var shoppingCart = {
   
-  add: function(item, index, array) {
-  var array = [];	
-  array.push(item);
+  add: function(description, count, price) {
+  	for (var i = 0; i<4; i++){
+  		item1.push(1);
+  	}
+  
   //this.count = stuff.count;
   //this.price = stuff.price;
 },
 
   list: function(stuff) {
-  	return shoppingCart.array + " X " + this.array;
+  	return this.i + " X " + tally;
   },
 
   total: function (stuff) {
-  	return shoppingCart.array;
+  	return array;
   },
   remove: function (stuff) {
     shoppingCart.array;
   }
 };
 
-var item1 = shoppingCart.add({description: "Huggies Little Snugglers Diapers",
+item1 = shoppingCart.add({description: "Huggies Little Snugglers Diapers",
                               count: 4,
                               price: 19.77});
 
-var item2 = shoppingCart.add({description: "Tylenol Extra Strength Acetaminophen",
+item2 = shoppingCart.add({description: "Tylenol Extra Strength Acetaminophen",
                               count: 2,
                               price: 22.38});
 
-var item3 = shoppingCart.add({description: "Flents Quiet Please Foam Ear Plugs",
+item3 = shoppingCart.add({description: "Flents Quiet Please Foam Ear Plugs",
                               count: 10,
                               price: 11.50});
 
-var item4 = shoppingCart.add({description: "Monsters Eat Whiny Children",
+item4 = shoppingCart.add({description: "Monsters Eat Whiny Children",
                               count: 1,
                               price: 11.07});
 
