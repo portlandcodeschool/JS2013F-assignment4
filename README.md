@@ -4,9 +4,9 @@ If you haven't already, you need to clone this repo and create a new working bra
 
 1. git clone git@github.com:portlandcodeschool/JS2013F-assignment4.git
 2. cd JS2013F-assignment4
-3. git checkout -b <your lastname>
-4. git mkdir <your lastname>
-5. git cd <your lastname>
+3. git checkout -b &lt;your lastname&gt;
+4. git mkdir &lt;your lastname&gt;
+5. git cd &lt;your lastname&gt;
 
 And you're ready to work!
 
