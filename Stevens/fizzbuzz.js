@@ -12,11 +12,11 @@ var number = [];
   number.forEach(function(item) {
   	if (item % 3 === 0 && item % 5 === 0) {
       console.log("FizzBuzz");
-    }  if (item % 3 === 0) {
+    }  else if (item % 3 === 0) {
   	  console.log("Fizz");
-  	}  if (item % 5 === 0) {
+  	} else if (item % 5 === 0) {
   	  console.log("Buzz");
-    }  if (item % 3 != 0, item % 5 != 0) {
+    } else { (item % 3 != 0, item % 5 != 0) 
   		console.log(item);
     }
   });
