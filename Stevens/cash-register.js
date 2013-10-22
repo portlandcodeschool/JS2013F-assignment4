@@ -1,19 +1,12 @@
-var cashRegisterAdd = "";
-var cashRegisterSubtract = "";
-var cashRegisterTotal = "";
-
 var cashRegister = {
 	add: function add (charge) {
-		cashRegisterAdd = charge + 0;
-		console.log(cashRegisterAdd);
+		var cashRegisterAdd = charge + 0
 	},
 	subtract: function subtract (charge) {
-		cashRegisterSubtract = cashRegisterAdd - charge;
-		console.log(cashRegisterSubtract);
+		var cashRegisterSubtract = cashRegisterAdd - charge;
 	},
-	total: function total () {
-		return cashRegisterAdd + cashRegisterSubtract
-	}
+	total: cashRegister.add() + cash.Register.subtract()
+	
   // implement me!
 }
 
