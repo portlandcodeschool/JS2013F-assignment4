@@ -1,37 +1,32 @@
 
 
-var description = " ";
-var count = 0;
-var price = 0;
-var tally = " ";
 
-var array = [item1 = [description, count, price], 
-  item2 = [description, count, price], 
-  item3 = [description, count, price], 
-  item4 = [description, count, price]];
+var array = ["item1", "item2", "item3", "item4"];
 
 
 var shoppingCart = {
   
-  add: function(description, count, price) {
-  	for (var i = 0; i<4; i++){
-  		item1.push(1);
-  	}
-  
-  //this.count = stuff.count;
-  //this.price = stuff.price;
-},
-
-  list: function(stuff) {
-  	return this.i + " X " + tally;
+  add: function(item, description, count, price) {
+    var description = " ";
+    count = " ";
+    price =  " ";
+    array.forEach(function(description, count, price) {
+      array[0] += this.description;
+    });
+ 
   },
-
-  total: function (stuff) {
-  	return array;
-  },
-  remove: function (stuff) {
+  remove: function (item, removeNumber) {
     shoppingCart.array;
+  },
+
+  list: function(description, count) {
+  	return this.count + " X " + this.array;
+  },
+
+  total: function (count) {
+  	return this.count;
   }
+
 };
 
 item1 = shoppingCart.add({description: "Huggies Little Snugglers Diapers",

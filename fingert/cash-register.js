@@ -22,6 +22,14 @@ var cashRegister = {
   	
   };
 
+  
+cashRegister.add(1.25);
+cashRegister.add(3.63);
+cashRegister.add(4.99);
+cashRegister.subtract(1.15);
+
+console.log("Your total is " + cashRegister.total());
+
 //cashRegister.total = cashRegister.num;
 /*=======
 //David - I can't figure out the math to apply, but I am just 
@@ -47,12 +55,6 @@ var cashRegister = {
   
 
 
-cashRegister.add(1.25);
-cashRegister.add(3.63);
-cashRegister.add(4.99);
-cashRegister.subtract(1.15);
-
-console.log("Your total is " + cashRegister.total());
 
 
 
