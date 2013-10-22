@@ -3,22 +3,22 @@
 //for the multiples of five print “Buzz”. 
 //For numbers which are multiples of both three and five print “FizzBuzz”.
 
-var numberArray = [];
+var number = [];
 
-  for (i = 0; i < numberArray.length; i++) {
-	numberArray[i] = i + 1;
+  for (i = 0; i < 100; i++) {
+	number[i] = i + 1;
   };
 
-  numberArray.forEach(function(item) {
-  	if (item % 3 === 0);
+  number.forEach(function(item) {
+  	if (item % 3 === 0 && item % 5 === 0) {
+      console.log("FizzBuzz");
+    }  if (item % 3 === 0) {
   	  console.log("Fizz");
-  	if (item % 5 === 0);
+  	}  if (item % 5 === 0) {
   	  console.log("Buzz");
-  	if (item % 3 === 0 & item % 5 === 0);
-  	  console.log("FizzBuzz");
-  	} else {
+    }  if (item % 3 != 0, item % 5 != 0) {
   		console.log(item);
-  	}
+    }
   });
 
 

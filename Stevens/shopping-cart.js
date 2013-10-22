@@ -1,4 +1,17 @@
 var shoppingCart = {
+	add: function(item, description, count, price) {
+		//ENTER FUNCTION
+	},
+	remove: function(item, removeNumber) {
+		//ENTER FUNCTION, should removeNumber just be count?
+	},
+	list: function(description, count) {
+		console.log(count + " X " + description)
+	}:
+	total: function(addTotal, removeTotal) {
+		console.log(add + remove)
+	}
+
   // implement me!
 };
 
