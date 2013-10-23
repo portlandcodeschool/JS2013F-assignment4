@@ -2,6 +2,7 @@ var cashRegister = {
 	credit: 0,
 	debit: 0,
 	balance: 0,
+  
   add: function(amount) {
   	this.credit += amount;
   },

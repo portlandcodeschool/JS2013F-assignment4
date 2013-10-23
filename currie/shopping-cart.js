@@ -10,18 +10,14 @@ var shoppingCart = {
   	},
 	remove: function(itemId, quantity) {
 		for (var i = shoppingCart.cart.length - 1; i >= 0; i--) {
-				if (shoppingCart.cart[i].id === itemId && shoppingCart.cart[i].count === quantity) {
+				if (shoppingCart.cart[i].id === itemId && shoppingCart.cart[i].count <= quantity) {
 					shoppingCart.cart.splice(i, 1);
 				}
 				else if (shoppingCart.cart[i].id === itemId) {
 				shoppingCart.cart[i].count -= quantity;
 			}
 
-		};
-
-		// Check through all of the objects in the array 'cart' (forEach)
-		// then for any object that has an ID equal to 'itemId' remove the quantity from its count property
-		// if quantity removed equals or excceeds the count delete the object.
+		}
 
   	},
   	list: function() {
