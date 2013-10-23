@@ -1,14 +1,18 @@
 var cashRegister = {
-	add: function add (charge) {
-		var cashRegisterAdd = charge + 0
+	cashBox: 0, 
+
+	add: function (charge) {
+	  this.cashBox += charge;
 	},
-	subtract: function subtract (charge) {
-		var cashRegisterSubtract = cashRegisterAdd - charge;
+	subtract: function (charge) {
+	  this.cashBox -= charge;
 	},
-	total: cashRegister.add() + cash.Register.subtract()
+	total: function () {
+		return this.cashBox;
+	}
 	
   // implement me!
-}
+};
 
 cashRegister.add(1.25);
 cashRegister.add(3.63);
