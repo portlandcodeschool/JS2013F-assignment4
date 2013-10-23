@@ -17,10 +17,18 @@ var shoppingCart = {
     this.newArray.forEach(function(item, index, arr) {
       if (itemId === item.id) {
         if(numberToRemove >= item.count) {
-          arr.splice(idex, 1); 
+          arr.splice(index, 1); 
         }else {
           item.count -= numberToRemove;
         }
+      }
+    });
+  },
+
+  alter: function (itemId, alteredBy) {
+    this.newArray.forEach(function(item) {
+      if (itemId === item.id){
+        item.count += alteredBy;
       }
     });
   },
@@ -31,6 +39,7 @@ var shoppingCart = {
       var itemStr = item.count + " X " + item.description;
       inventory.unshift(itemStr);
     });
+    return inventory;
   },
 
   total: function () {
@@ -60,6 +69,7 @@ item4 = shoppingCart.add({description: "Monsters Eat Whiny Children",
 
 shoppingCart.remove(item3, 6);
 shoppingCart.remove(item4, 1);
+shoppingCart.alter(item1, -1);
 
 console.log(shoppingCart.list());
 
