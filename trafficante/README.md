@@ -1,7 +1,7 @@
 //JS2013F-asssignment4//
 
 	In progress:
-		shopping-car.js
+		shopping-cart.js
 
 	Completed:
 		fizzbuzz.js
