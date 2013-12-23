@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Assignment 4
 
 If you haven't already, you need to clone this repo and create a new working branch for yourself.
@@ -30,3 +31,6 @@ Copy shopping-cart.js into your working directory. This time you're going to cre
 2. It must have a remove function that accepts a unique item id, and a number that represents how many to remove. The function should change the item count or delete the item altogether as appropriate.
 3. It must have a list function that returns an array of desciptions, prefixed by "n X ", where n is the number currently in the cart.
 4. It must have a total function that returns the current total cost of the purchase
+=======
+This is a README file.
+>>>>>>> f2cf33bb979e64b31902c1b7d6dda07eb550009a
